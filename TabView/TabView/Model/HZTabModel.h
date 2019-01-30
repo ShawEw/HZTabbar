@@ -21,6 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 //@property (nonatomic,assign) BOOL isBig;//暂时不使用
 @property (nonatomic,assign) NSInteger index;//暂时不使用
 
+@property (nonatomic,assign) BOOL isFromStoryboard;
+@property (nonatomic,strong) NSString *storyboardName;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -35,7 +35,13 @@
     for (NSInteger i = 0; i < endCount; i++) {
         HZTabModel *model = _tabList[i];
         UINavigationController *nvc = [[UINavigationController alloc] init];
-        UIViewController *vc = [[NSClassFromString(model.viewControllerName) alloc] init];
+        UIViewController *vc = [[UIViewController alloc] init];
+        if (model.isFromStoryboard) {
+            UIStoryboard *story = [UIStoryboard storyboardWithName:model.storyboardName bundle:nil];
+            vc = [story instantiateViewControllerWithIdentifier:model.viewControllerName];
+        }else{
+            vc = [[NSClassFromString(model.viewControllerName) alloc] init];
+        }
         [nvc addChildViewController:vc];
         [list addObject:nvc];
     }

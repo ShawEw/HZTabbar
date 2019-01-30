@@ -8,33 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3467835121F5C28B0075C97D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467835021F5C28B0075C97D /* AppDelegate.m */; };
-		3467835421F5C28B0075C97D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467835321F5C28B0075C97D /* ViewController.m */; };
 		3467835721F5C28B0075C97D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3467835521F5C28B0075C97D /* Main.storyboard */; };
 		3467835921F5C28C0075C97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3467835821F5C28C0075C97D /* Assets.xcassets */; };
 		3467835C21F5C28C0075C97D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3467835A21F5C28C0075C97D /* LaunchScreen.storyboard */; };
 		3467835F21F5C28C0075C97D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467835E21F5C28C0075C97D /* main.m */; };
 		3467836821F5C2C80075C97D /* HZTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467836721F5C2C80075C97D /* HZTabBarView.m */; };
 		3467836C21F5C3BA0075C97D /* HZTabModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467836B21F5C3BA0075C97D /* HZTabModel.m */; };
-		3467837021F6B4730075C97D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467836E21F6B4730075C97D /* HomeViewController.m */; };
-		3467837121F6B4730075C97D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3467836F21F6B4730075C97D /* HomeViewController.xib */; };
-		3467837521F6B4810075C97D /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467837321F6B4810075C97D /* MeViewController.m */; };
-		3467837621F6B4810075C97D /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3467837421F6B4810075C97D /* MeViewController.xib */; };
 		3467837921F6C2F40075C97D /* HZTabContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467837821F6C2F40075C97D /* HZTabContentView.m */; };
-		3467837C21F6F4010075C97D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467837B21F6F4010075C97D /* TestViewController.m */; };
 		3467838021F7008B0075C97D /* HZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467837F21F7008B0075C97D /* HZTabBarController.m */; };
-		3467838321F7135C0075C97D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467838221F7135C0075C97D /* SecondViewController.m */; };
 		3467838721F809D90075C97D /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467838521F809D80075C97D /* Aspects.m */; };
 		3467838C21F80CF00075C97D /* HZTabbarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467838B21F80CF00075C97D /* HZTabbarHelper.m */; };
-		3467838F21F831DD0075C97D /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467838E21F831DD0075C97D /* TabbarViewController.m */; };
-		3467839221F8370E0075C97D /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467839121F8370E0075C97D /* TestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3467834C21F5C28B0075C97D /* TabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3467834F21F5C28B0075C97D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3467835021F5C28B0075C97D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3467835221F5C28B0075C97D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3467835321F5C28B0075C97D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3467835621F5C28B0075C97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3467835821F5C28C0075C97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3467835B21F5C28C0075C97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,28 +33,14 @@
 		3467836721F5C2C80075C97D /* HZTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTabBarView.m; sourceTree = "<group>"; };
 		3467836A21F5C3BA0075C97D /* HZTabModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTabModel.h; sourceTree = "<group>"; };
 		3467836B21F5C3BA0075C97D /* HZTabModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTabModel.m; sourceTree = "<group>"; };
-		3467836D21F6B4730075C97D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		3467836E21F6B4730075C97D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		3467836F21F6B4730075C97D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		3467837221F6B4810075C97D /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
-		3467837321F6B4810075C97D /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
-		3467837421F6B4810075C97D /* MeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
 		3467837721F6C2F40075C97D /* HZTabContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTabContentView.h; sourceTree = "<group>"; };
 		3467837821F6C2F40075C97D /* HZTabContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTabContentView.m; sourceTree = "<group>"; };
-		3467837A21F6F4010075C97D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		3467837B21F6F4010075C97D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		3467837E21F7008B0075C97D /* HZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTabBarController.h; sourceTree = "<group>"; };
 		3467837F21F7008B0075C97D /* HZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTabBarController.m; sourceTree = "<group>"; };
-		3467838121F7135C0075C97D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3467838221F7135C0075C97D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3467838521F809D80075C97D /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		3467838621F809D80075C97D /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		3467838A21F80CF00075C97D /* HZTabbarHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTabbarHelper.h; sourceTree = "<group>"; };
 		3467838B21F80CF00075C97D /* HZTabbarHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZTabbarHelper.m; sourceTree = "<group>"; };
-		3467838D21F831DD0075C97D /* TabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
-		3467838E21F831DD0075C97D /* TabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
-		3467839021F8370E0075C97D /* TestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
-		3467839121F8370E0075C97D /* TestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +73,6 @@
 		3467834E21F5C28B0075C97D /* TabView */ = {
 			isa = PBXGroup;
 			children = (
-				3467838421F7FAB30075C97D /* Controller */,
 				3467836521F5C2AE0075C97D /* TabView */,
 				3467834F21F5C28B0075C97D /* AppDelegate.h */,
 				3467835021F5C28B0075C97D /* AppDelegate.m */,
@@ -142,29 +116,6 @@
 				3467837821F6C2F40075C97D /* HZTabContentView.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		3467838421F7FAB30075C97D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3467835221F5C28B0075C97D /* ViewController.h */,
-				3467835321F5C28B0075C97D /* ViewController.m */,
-				3467836D21F6B4730075C97D /* HomeViewController.h */,
-				3467836E21F6B4730075C97D /* HomeViewController.m */,
-				3467836F21F6B4730075C97D /* HomeViewController.xib */,
-				3467837221F6B4810075C97D /* MeViewController.h */,
-				3467837321F6B4810075C97D /* MeViewController.m */,
-				3467837421F6B4810075C97D /* MeViewController.xib */,
-				3467837A21F6F4010075C97D /* TestViewController.h */,
-				3467837B21F6F4010075C97D /* TestViewController.m */,
-				3467838121F7135C0075C97D /* SecondViewController.h */,
-				3467838221F7135C0075C97D /* SecondViewController.m */,
-				3467838D21F831DD0075C97D /* TabbarViewController.h */,
-				3467838E21F831DD0075C97D /* TabbarViewController.m */,
-				3467839021F8370E0075C97D /* TestController.h */,
-				3467839121F8370E0075C97D /* TestController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		3467838821F809DD0075C97D /* Aspects */ = {
@@ -244,9 +195,7 @@
 			files = (
 				3467835C21F5C28C0075C97D /* LaunchScreen.storyboard in Resources */,
 				3467835921F5C28C0075C97D /* Assets.xcassets in Resources */,
-				3467837621F6B4810075C97D /* MeViewController.xib in Resources */,
 				3467835721F5C28B0075C97D /* Main.storyboard in Resources */,
-				3467837121F6B4730075C97D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,19 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3467835421F5C28B0075C97D /* ViewController.m in Sources */,
 				3467835F21F5C28C0075C97D /* main.m in Sources */,
-				3467837521F6B4810075C97D /* MeViewController.m in Sources */,
 				3467836821F5C2C80075C97D /* HZTabBarView.m in Sources */,
-				3467839221F8370E0075C97D /* TestController.m in Sources */,
-				3467838F21F831DD0075C97D /* TabbarViewController.m in Sources */,
 				3467837921F6C2F40075C97D /* HZTabContentView.m in Sources */,
 				3467838021F7008B0075C97D /* HZTabBarController.m in Sources */,
 				3467836C21F5C3BA0075C97D /* HZTabModel.m in Sources */,
-				3467837C21F6F4010075C97D /* TestViewController.m in Sources */,
-				3467838321F7135C0075C97D /* SecondViewController.m in Sources */,
 				3467835121F5C28B0075C97D /* AppDelegate.m in Sources */,
-				3467837021F6B4730075C97D /* HomeViewController.m in Sources */,
 				3467838C21F80CF00075C97D /* HZTabbarHelper.m in Sources */,
 				3467838721F809D90075C97D /* Aspects.m in Sources */,
 			);
@@ -416,6 +358,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TabView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hztech.PeopleDeputy.TabView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,6 +377,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TabView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hztech.PeopleDeputy.TabView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

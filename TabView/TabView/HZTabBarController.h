@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong)NSMutableArray<HZTabModel *> *tabList;
 @property (nonatomic,strong) HZTabBarView *tabView;
 -(void)initTabBar;
-
+-(void)tabSelect:(NSInteger)index;
 @end
 
 NS_ASSUME_NONNULL_END

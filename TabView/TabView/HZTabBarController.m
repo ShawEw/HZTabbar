@@ -58,8 +58,13 @@
     [self setSelectedIndex:0];
 }
 
+- (void)tabSelect:(NSInteger)index{
+    
+}
+
 -(void)tabView:(HZTabBarView *)tabView didSelect:(NSInteger)index{
     [self setSelectedIndex:index];
+    [self tabSelect:index];
 }
 
 -(void)tabview:(HZTabBarView *)tabView bigSelect:(UIButton *)btn{
